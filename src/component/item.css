@@ -1,0 +1,81 @@
+.ulList{
+    padding: 0;
+    margin-top: 40px;
+}
+li{
+    display: flex;
+    border-radius: 20px;
+    padding: 10px 25px;
+    font-size: 1rem;
+    font-weight: 400;
+    background-color: rgb(247, 247, 247);
+    
+
+}
+span{
+    height: auto;
+    align-content: center;
+    width:100%;
+    
+}
+.checkList{
+    margin-right: 6px;
+}
+.span-taskName{
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 600;
+    
+}
+
+input[type="checkbox"]{
+    height: 20px;
+    width: 20px;
+}
+.task-List{
+    display: flex;
+    align-content: center;
+    
+}
+.task-List.check {
+    text-decoration: line-through;
+    display: flex;
+    align-content: center;
+
+  }
+
+li>div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btns-list{
+    display: flex;
+    width: auto;
+    align-items: center;
+    
+}
+.btns-list .btn-list{
+    width: auto;
+    height: 30px;
+    margin: 0 2px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 100%;
+}
+
+.updateTask{
+    width: 100%;
+    font-size: 1rem;
+    border-radius: 50px 0 0 50px;
+    border: 1px;
+    margin: 0;
+    padding: 4px 12px;
+}
+.save-btn{
+    border: 0;
+    background-color: #FF8400;
+    border-radius: 0 50px 50px 0;
+}
